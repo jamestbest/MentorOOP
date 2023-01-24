@@ -96,14 +96,3 @@ class Circle:
 
 circle = Circle(Shape(10, 20), 5)
 rectangle = Rectangle(Shape(10, 20), 5, 10)
-
-# by using composition we only need to edit how we create the shape object and not the other classes
-
-# composition also allows you to share the same shape object between multiple classes
-# e.g. shape = Shape(10, 20)
-#      circle = Circle(shape, 5)
-#      rectangle = Rectangle(shape, 5, 10)
-
-# in the inheritance example you would have to pass in the information for the shape object multiple times
-# e.g. circle = Circle(10, 20, 5)
-#      rectangle = Rectangle(10, 20, 5, 10)
